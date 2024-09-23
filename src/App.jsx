@@ -6,6 +6,11 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
+  const styleCards = {
+    top: "0.5rem",
+    right: "0.5rem",
+  };
+
   return (
     <>
       <body>
@@ -129,7 +134,7 @@ function App() {
                 <div className="card h-100">
                   <div
                     className="badge bg-dark text-white position-absolute"
-                    style="top: 0.5rem; right: 0.5rem"
+                    style={styleCards}
                   >
                     Sale
                   </div>
@@ -167,7 +172,7 @@ function App() {
                 <div className="card h-100">
                   <div
                     className="badge bg-dark text-white position-absolute"
-                    style="top: 0.5rem; right: 0.5rem"
+                    style={styleCards}
                   >
                     Sale
                   </div>
@@ -227,7 +232,7 @@ function App() {
                 <div className="card h-100">
                   <div
                     className="badge bg-dark text-white position-absolute"
-                    style="top: 0.5rem; right: 0.5rem"
+                    style={styleCards}
                   >
                     Sale
                   </div>
@@ -285,7 +290,7 @@ function App() {
                 <div className="card h-100">
                   <div
                     className="badge bg-dark text-white position-absolute"
-                    style="top: 0.5rem; right: 0.5rem"
+                    style={styleCards}
                   >
                     Sale
                   </div>
